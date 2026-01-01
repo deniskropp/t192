@@ -1,0 +1,138 @@
+# Dopamin Engine – Knowledge Graph Template für kreative Zusammenarbeit
+# Version: 1.0
+# Fokus: neurokognitive Verstärker für digitale Kreativsysteme
+
+System: DopaminEngine
+Purpose: Verstärkung kreativer Kollaboration durch gezielte Dopaminträger
+Namespace: neuro.collab.dopamine
+
+# -------------------------
+# :: TRIGGER KNOTEN
+# -------------------------
+
+Concept: GemeinsameZielerreichung
+  is_a: DopaminTrigger
+  activates: MilestoneFreude
+  feedback_loop: SofortFeedback
+  example: confetti_on_task_complete
+
+Concept: SozialeZugehörigkeit
+  is_a: DopaminTrigger
+  feedback_loop: Reaktionssystem
+  connects_to: Gemeinschaftsgefühl
+  neurotransmitter: Dopamin+Oxytocin
+
+Concept: Neugier
+  is_a: DopaminTrigger
+  enables: Exploration
+  context: Sandbox, IdeationZone
+
+Concept: Selbstwirksamkeit
+  is_a: DopaminTrigger
+  connects_to: ImpactView
+  reinforces: MotivationLangfristig
+
+Concept: Reflexion
+  is_a: DopaminTrigger
+  implemented_by: JournalSystem
+  triggers: Wachstumsbewusstsein
+
+Concept: Unmittelbarkeit
+  is_a: DopaminTrigger
+  feedback_loop: EchtzeitResonanz
+  used_in: LiveDesign, CodeCoCreation
+
+Concept: Gamifikation
+  is_a: DopaminTrigger
+  structuring: Queststruktur
+  visualized_by: Fortschrittsbögen
+
+Concept: Synchronisation
+  is_a: DopaminTrigger
+  induces: KollektiverFlow
+  tool_context: Miro, Figma, CoLab
+
+Concept: Sinnstiftung
+  is_a: DopaminTrigger
+  aligns_with: MissionStatement
+  relevance: Identitätsbildung
+
+Concept: Metakognition
+  is_a: DopaminTrigger
+  loop: HighlightReel
+  measure: DopaminRetroEffekt
+
+# -------------------------
+# :: VERSTÄRKER / TOOLS
+# -------------------------
+
+Concept: SharedJournal
+  implements: Reflexion, Selbstwirksamkeit
+  captures: Fortschritt, Feedback
+  format: Notion, CustomApp
+
+Concept: GamifiedDashboard
+  maps: Fortschritt → RewardVisualisierung
+  triggers: Zielerreichung, Sinn
+
+Concept: RealTimeFeedback
+  reacts_to: Beiträge
+  emits: Likes, Emojis, Kommentare
+  boosts: Unmittelbarkeit
+
+Concept: QuestOrchestrator
+  stages: Projekt in epische Akte
+  defines: Badges, Milestones
+  invokes: Gamifikation
+
+Concept: NarrativeMissionBinder
+  anchors: Purpose
+  shared_by: Team
+  boosts: Identitätsbindung
+
+# -------------------------
+# :: RITUALE / ZYKLEN
+# -------------------------
+
+Concept: DopaminRetrospektive
+  cycle: weekly
+  action: Reflexion, HighlightReview
+  reward: BadgeVergabe, Emotionale Verstärkung
+
+Concept: HighlightReel
+  format: Video, Slide
+  input: Projektfortschritt
+  output: Stolz, Antizipation
+
+Concept: FeedbackRitual
+  cycle: daily
+  pattern: LivePings → Emojis → Verstärker
+
+# -------------------------
+# :: MESSUNG & META
+# -------------------------
+
+Concept: EngagementIndex
+  measures: Beteiligung, Resonanz, Frequenz
+  visualized_by: Heatmap, Chart
+
+Concept: DopaminDichte
+  unit: events_per_day
+  data_source: TriggerLogs
+
+Concept: FlowZeit
+  condition: Synchronisation + Fokus
+  metric: uninterrupted_session_length
+
+# -------------------------
+# :: SYSTEMBINDUNG
+# -------------------------
+
+SystemBind: DopaminEngine
+  connects_to: 
+    - SPOFramework
+    - AetheriaOS
+    - FeedbackGraph
+    - QuestPipeline
+
+MetaNote: Jeder Trigger ist ein potenzieller Verstärkerpfad. Ketten können rekursiv definiert werden.
